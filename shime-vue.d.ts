@@ -1,4 +1,1 @@
-declare module '*.vue' {
-  import Vue from 'vue';
-  export default Vue;
-}
+/// <reference types="unplugin-vue2-script-setup/shims.js" />

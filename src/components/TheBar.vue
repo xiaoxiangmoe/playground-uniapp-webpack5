@@ -1,15 +1,11 @@
-<script lang="ts">
-import { computed, defineComponent } from '@vue/composition-api';
+<script lang="ts" setup>
+import { computed } from '@vue/composition-api';
 
-export default {
-  props: { msg: String },
-  setup(props) {
-    const message = computed(() => 'msg: ' + props.msg);
-    return {
-      message,
-    };
-  },
-};
+const props = defineProps<{
+  msg: string;
+}>();
+
+const message = computed(() => 'msg: ' + props.msg);
 </script>
 <template>
   <div>{{ message }}</div>

@@ -1,17 +1,7 @@
-<script lang="ts">
-import Vue from 'vue';
+<script setup lang="ts">
 import TheFoo from '@/components/TheFoo.vue';
 
-export default Vue.extend({
-  components: { TheFoo },
-  data() {
-    return {
-      title: 'Hello',
-    };
-  },
-  onLoad() {},
-  methods: {},
-});
+const title ='Hello'
 </script>
 <template>
   <view class="content">
