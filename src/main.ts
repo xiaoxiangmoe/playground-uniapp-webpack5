@@ -1,7 +1,9 @@
-import "./install";
-import Vue from "vue";
-import App from "./App.vue";
+import './install';
+
+import Vue from 'vue';
+import App from './App.vue';
 
 Vue.config.productionTip = false;
 
-new App().$mount();
+const app = new (typeof App === 'function' ? App : Vue.extend(Object.assign({ mpType: 'app' }, App)))();
+app.$mount();

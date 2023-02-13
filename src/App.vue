@@ -1,15 +1,15 @@
 <script lang="ts">
-import Vue from "vue";
+import Vue from 'vue';
 export default Vue.extend({
-  mpType: "app",
+  mpType: 'app',
   onLaunch() {
-    console.log("App Launch");
+    console.log('App Launch');
   },
   onShow() {
-    console.log("App Show");
+    console.log('App Show');
   },
   onHide() {
-    console.log("App Hide");
+    console.log('App Hide');
   },
 });
 </script>

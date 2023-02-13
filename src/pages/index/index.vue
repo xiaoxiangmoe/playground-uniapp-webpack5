@@ -1,3 +1,18 @@
+<script lang="ts">
+import Vue from 'vue';
+import TheFoo from '@/components/TheFoo.vue';
+
+export default Vue.extend({
+  components: { TheFoo },
+  data() {
+    return {
+      title: 'Hello',
+    };
+  },
+  onLoad() {},
+  methods: {},
+});
+</script>
 <template>
   <view class="content">
     <image class="logo" src="../../static/logo.png"></image>
@@ -7,22 +22,6 @@
     </view>
   </view>
 </template>
-
-<script lang="ts">
-import Vue from "vue";
-import TheFoo from "@/components/TheFoo.vue";
-
-export default Vue.extend({
-  components: { TheFoo },
-  data() {
-    return {
-      title: "Hello",
-    };
-  },
-  onLoad() {},
-  methods: {},
-});
-</script>
 
 <style>
 .content {

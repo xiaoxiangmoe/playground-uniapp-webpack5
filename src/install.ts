@@ -1,6 +1,6 @@
-import Vue from "vue";
-import VueCompositionAPI from "@vue/composition-api";
-import UniCompositionAPI from "uni-composition-api";
-
+import Vue from 'vue';
+import VueCompositionAPI from '@vue/composition-api';
 Vue.use(VueCompositionAPI);
-Vue.use(UniCompositionAPI);
+
+// import UniCompositionAPI from "uni-composition-api";
+// Vue.use(UniCompositionAPI);

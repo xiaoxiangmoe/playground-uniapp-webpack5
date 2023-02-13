@@ -1,12 +1,12 @@
 <script lang="ts">
-import { defineComponent } from "@vue/composition-api";
-import TheBar from "./TheBar.vue";
+import { defineComponent } from '@vue/composition-api';
+import TheBar from './TheBar.vue';
 
 export default {
   components: { TheBar },
   setup() {
     return {
-      message: "hello",
+      message: 'hello',
     };
   },
 };
